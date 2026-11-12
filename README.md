@@ -5,6 +5,10 @@
 Чтобы поиграть, откройте `index.html` в браузере. Сервер и сборка не нужны: three.js лежит в `game/vendor`.
 Если удобнее через сервер: `python3 -m http.server` и затем http://localhost:8000.
 
+**На телефоне** используйте `shashki3d.html` — это вся игра в одном файле. Скачайте его (на GitHub: файл → «Download raw file») и откройте в Chrome или Safari.
+`index.html` без папки `game/` не работает.
+После изменений в `game/` пересоберите этот файл: `node tools/build-single.mjs`.
+
 ## Управление
 
 | Действие | Клавиатура | Телефон |
